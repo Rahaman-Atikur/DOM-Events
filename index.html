@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM Events</title>
 </head>
+
 <body>
     <h1>Dom Events</h1>
+    <!-- Option 1 For Event Handler -->
     <button onclick="console.log(7)">Click Me</button>
     <button onclick="console.log(67)">Another Click</button>
-    <button onclick="console.log('I am clicked')">More  Click</button>
+    <button onclick="console.log('I am clicked')">More Click</button>
     <input type="text">
-    
+    <!-- Option 2 for event Handler -->
+    <button onclick="maleYellow()">Make Yellow</button>
+    <button onclick="maleRed()">Make Red</button>
+    <br>
+    <button id="btn-click-blue">Make Blue</button>
+
+    <!-- Option 3 Event handler -->
+    <button id="btn-make-purple">Make Purple</button>
+
+    <!-- Option 4 addEventLister -->
+    <button id="btn-click-green">Make Green</button>
+
+    <!-- Option 5  -->
+     <button id="btn-click-gold">Make Gold</button>
+
     <script src="js/events.js"></script>
 </body>
+
 </html>
